@@ -1,6 +1,7 @@
 
 - [Introduction](#introduction)
     - [Quickstart](#quickstart)
+    - [Topic Modeling](#topic-modeling)
   - [Dataset](#dataset)
     - [ROOT](#root)
     - [Offenses](#offenses)
@@ -16,9 +17,16 @@ Do tattoos on inmates correlate to there prison terms or charges? This project u
 * Check out the [Streamlit App ](https://florida-inmate-tattoos.streamlit.app/)!
 
 * To run locally follow the steps below:
-    1. 
+    1. Create a virtual environment and install the packages in the requirements.txt file
+    2. Download the app folder
+    3. Run the command 'streamlit run Home.py' within the app directory.
 
 ---
+
+### Topic Modeling
+Utilized Gensim LDA library to perfrom topic modeling on all tattoos descriptions. To simplify the dataset, all tattooos for an individual was flattened and the location was not included in the corelation models. 
+
+
 
 ## Dataset
 
