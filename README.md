@@ -21,7 +21,7 @@ Do tattoos on inmates correlate to there prison terms or charges? This project u
 
 * To run locally follow the steps below:
     1. Create a virtual environment and install the packages in the requirements.txt file
-    2. Download the app folder
+    2. Download the repository folder
     3. Run the command 'streamlit run Home.py' within the app directory.
 
 ---
