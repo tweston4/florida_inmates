@@ -1,10 +1,28 @@
-# Introduction
+# Introduction- [Introduction](#introduction)
+- [Introduction- Introduction](#introduction--introduction)
+    - [Quickstart](#quickstart)
+  - [Dataset](#dataset)
+    - [ROOT](#root)
+    - [Offenses](#offenses)
+    - [Scar Marks](#scar-marks)
 
-Do tattoos on inmates correlate to there prison terms or charges? This project utilizes a dataset of Florida inmates and their tattoos from 1980 - 2017, to analyze the correlation between tattoos and crime.
+
+Do tattoos on inmates correlate to there prison terms or charges? This project utilizes a dataset of Florida inmates and their tattoos from 1980 - 2017, to analyze the correlation between tattoos and crime. Analytics and results will be displayed on a streamlit app. 
+
+---
+
+### Quickstart
+
+* 
+1. 
+
+---
 
 ## Dataset
 
 The dataset was shared to me from a colleague in a Data Analytics course and can be found [HERE](https://www.dropbox.com/sh/5mhudhvlx49sysw/AAAD0CBKKWs2WwbxyoHhKaM0a?dl=0).
+
+---
 
 ### ROOT
 
@@ -16,6 +34,8 @@ The dataset was shared to me from a colleague in a Data Analytics course and can
 | B    | M   | 6/8/1939   | BLK       | BRO      | 600    | 230    | 2/8/2019          | 12/15/2015  | valid release date     | CLOSE                | NWFRC ANNEX.          |
 | B    | M   | 6/20/1941  | BLK       | BRO      | 508    | 140    |                   | 7/28/1976   | life sentence          | CLOSE                | S.F.R.C SOUTH UNIT    |
 
+---
+
 ### Offenses
 
 | DCNumber | Sequence | OffenseDate | DateAdjudicated | County    | CaseNumber | prisonterm | ProbationTerm | ParoleTerm | adjudicationcharge\_descr | qualifier\_descr | adjudication\_descr       |
@@ -25,6 +45,8 @@ The dataset was shared to me from a colleague in a Data Analytics course and can
 | V21385   | 4        | 10/25/2017  | 11/7/2017       | ST. JOHNS | 1701588    | 0010003    | 0000000       | 0000000    | COCAINE - POSSESSION      | PRINCIPAL        | ADJUDICATION NOT WITHHELD |
 | G09824   | 7        | 10/12/2017  | 12/6/2017       | ALACHUA   | 1703733    | 0010600    | 0000000       | 0000000    | COCAINE - POSSESSION      | PRINCIPAL        | ADJUDICATION NOT WITHHELD |
 | V14207   | 28       | 10/12/2017  | 11/30/2017      | VOLUSIA   | 1713094    | 0010001    | 0000000       | 0000000    | COCAINE - POSSESSION      | PRINCIPAL        | ADJUDICATION NOT WITHHELD |
+
+---
 
 ### Scar Marks
 
