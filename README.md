@@ -1,20 +1,22 @@
-# Introduction- [Introduction](#introduction)
-- [Introduction- Introduction](#introduction--introduction)
+
+- [Introduction](#introduction)
     - [Quickstart](#quickstart)
   - [Dataset](#dataset)
     - [ROOT](#root)
     - [Offenses](#offenses)
     - [Scar Marks](#scar-marks)
 
-
+# Introduction
 Do tattoos on inmates correlate to there prison terms or charges? This project utilizes a dataset of Florida inmates and their tattoos from 1980 - 2017, to analyze the correlation between tattoos and crime. Analytics and results will be displayed on a streamlit app. 
 
 ---
 
 ### Quickstart
 
-* 
-1. 
+* Check out the [Streamlit App ](https://florida-inmate-tattoos.streamlit.app/)!
+
+* To run locally follow the steps below:
+    1. 
 
 ---
 
