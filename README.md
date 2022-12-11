@@ -1,13 +1,16 @@
-
-- [Introduction](#introduction)
+# Florida Inmates' Tattoos 
+- [Florida Inmates' Tattoos](#florida-inmates-tattoos)
+  - [Introduction](#introduction)
     - [Quickstart](#quickstart)
     - [Topic Modeling](#topic-modeling)
-  - [Dataset](#dataset)
+    - [Future](#future)
+    - [Dataset](#dataset)
     - [ROOT](#root)
     - [Offenses](#offenses)
     - [Scar Marks](#scar-marks)
 
-# Introduction
+
+## Introduction
 Do tattoos on inmates correlate to there prison terms or charges? This project utilizes a dataset of Florida inmates and their tattoos from 1980 - 2017, to analyze the correlation between tattoos and crime. Analytics and results will be displayed on a streamlit app. 
 
 ---
@@ -24,15 +27,20 @@ Do tattoos on inmates correlate to there prison terms or charges? This project u
 ---
 
 ### Topic Modeling
-Utilized Gensim LDA library to perfrom topic modeling on all tattoos descriptions. To simplify the dataset, all tattooos for an individual was flattened and the location was not included in the corelation models. 
+Utilized Gensim LDA library to perfrom topic modeling on all tattoos descriptions. To simplify the dataset, all tattooos for an individual was flattened and the location was not included in the corelation models. Overall the data was clean and had the unique identifyer of DCNumber. The text was lemmetized using Spacy after running regex of the dataframe to tokenize.
 
+### Future
+Now that the tattoos have been classified into 4 topics, the next step is finding a correlation between the tattoo topics and crimes inmates commit or the time they serve. Finally comparing the results to models without the tattoo input. 
 
+---
 
-## Dataset
+### Dataset
 
 The dataset was shared to me from a colleague in a Data Analytics course and can be found [HERE](https://www.dropbox.com/sh/5mhudhvlx49sysw/AAAD0CBKKWs2WwbxyoHhKaM0a?dl=0).
 
 ---
+
+
 
 ### ROOT
 
